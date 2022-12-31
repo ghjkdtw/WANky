@@ -11,5 +11,5 @@
 #
 
 # Modify default IP
-sed -i 's/192.168.1.1/192.168.5.253/g' package/base-files/files/bin/config_generate
+sed -i 's/192.168.1.1/192.168.68.253/g' package/base-files/files/bin/config_generate
 sed -i '34s/V4UetPzk$CYXluq4wUazHjmCDBCqXF.:0/W20x1dnD$fL4vZImJD3OZM7hJd7r4e.:19258/' package/lean/default-settings/files/zzz-default-settings
